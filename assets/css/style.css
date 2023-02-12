@@ -95,13 +95,13 @@
 
 /* Intro */
 .intro {
-  background: url("../img/Rectangle 64.png");
+  background-image: url(../img/healthy-food-with-pair-of-sport-shoes-and-dumbbells-on-turf.jpg);
   background-size: 100%;
   background-size: cover;
   background-repeat: round;
 }
 .intro__container {
-  padding-top: 237px;
+  padding: 237px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -123,8 +123,8 @@
 .intro__text {
   font-family: var(--font-family);
   font-style: normal;
-  font-weight: 500;
-  font-size: 40px;
+  font-weight: 400;
+  font-size: 50px;
   line-height: 120%;
   margin-top: 4%;
   text-align: center;
@@ -244,9 +244,9 @@
   padding: 20px 20px;
   font-family: var(--font-family);
   font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 140%;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 170%;
   text-align: center;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -368,7 +368,10 @@
 .our-advantages__scroll-bar {
   display: flex;
   flex-direction: column;
-  max-width: 45%;
+}
+.our-advantages__scroll-bar img {
+  max-height: 80%;
+  width: 100%;
 }
 
 /* Scroll-bar */
@@ -394,7 +397,7 @@
   margin-top: 18%;
 }
 .our-services__title {
-  margin-bottom: 5%;
+  margin-bottom: 30px;
   display: flex;
   justify-content: center;
   font-family: var(--font-family);
@@ -420,7 +423,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 30px;
+  padding: 10px;
+  gap: 10px;
   border: 1px solid #898989;
 }
 .our-services__cards {
@@ -430,24 +434,23 @@
   gap: 2%;
 }
 .our-services__card img {
-  margin-top: 60px;
+  width: 50px;
+  height: 50px;
 }
 .our-services__sub-title {
   font-family: var(--font-family);
   font-style: normal;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 34px;
   line-height: 140%;
   text-align: center;
   letter-spacing: 0.05em;
-  text-transform: uppercase;
 }
 .our-services__text {
-  max-width: 226px;
   font-family: var(--font-family);
   font-style: normal;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 24px;
   line-height: 140%;
   text-align: center;
   letter-spacing: 0.05em;

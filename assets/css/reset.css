@@ -2,8 +2,8 @@
 	--content-width:1296px;
 	--fluid-width:1920px;
 	--font-family: 'ReformaGrotesk';
-	--text-color: #FFFFFF;
-	--accent-color: #DB3138;
+	--text-color: #faf5f5;
+	--accent-color: #A4D233;
 }
 
 /* Reset and base styles  */
@@ -24,7 +24,7 @@
 body {
 	color: var(--text-color);
 	font-family: var(--font-family) , sans-serif;
-	background-color: #141414;
+	background-color: #3f3d3d;
 }
 
 :focus,
