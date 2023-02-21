@@ -100,6 +100,11 @@
   background-size: cover;
   background-repeat: round;
 }
+@media only screen and (max-width: 1280px) {
+  .intro {
+    background-image: none;
+  }
+}
 .intro__container {
   padding: 237px 0;
   display: flex;
@@ -119,6 +124,11 @@
   display: flex;
   margin: 0 auto;
   color: var(--accent-color);
+}
+@media only screen and (max-width: 1280px) {
+  .intro__title {
+    margin: 0 24px;
+  }
 }
 .intro__text {
   font-family: var(--font-family);
@@ -203,6 +213,11 @@
 
 .achievement__info {
   max-width: 50%;
+}
+@media only screen and (max-width: 1280px) {
+  .achievement__info {
+    width: 100%;
+  }
 }
 .achievement__title {
   font-family: var(--font-family);
@@ -334,10 +349,16 @@
 .our-advantages__colum {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   max-width: 45%;
 }
+@media only screen and (max-width: 1280px) {
+  .our-advantages__colum:nth-child(2) {
+    display: none;
+  }
+}
 .our-advantages__info {
-  max-width: 80%;
+  width: 100%;
 }
 .our-advantages__decors {
   margin: 6vh 0 3vw 0;
@@ -361,7 +382,7 @@
   font-family: var(--font-family);
   font-style: normal;
   font-weight: 500;
-  font-size: 22px;
+  font-size: 32px;
   line-height: 120%;
   letter-spacing: 0.03em;
 }

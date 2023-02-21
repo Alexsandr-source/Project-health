@@ -129,6 +129,10 @@
     background-size: cover;
     background-repeat: round;
     
+    @media only screen and (max-width: 1280px) {
+        background-image: none;
+    }
+
     &__container {
         padding: 237px 0;
         display: flex;
@@ -152,6 +156,10 @@
         margin: 0 auto;
     
         color: var(--accent-color);
+
+        @media only screen and (max-width: 1280px) {
+            margin: 0 24px;
+        }
     }
     
     &__text {
@@ -256,6 +264,9 @@
     
     &__info {
         max-width: 50%;
+        @media only screen and (max-width: 1280px) {
+            width: 100%;
+        }
     }
     
     &__title {
@@ -425,11 +436,18 @@
     &__colum {
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
         max-width: 45%;
+
+        &:nth-child(2) {
+            @media only screen and (max-width: 1280px) {
+                display: none;
+            }
+        }
     }
     
     &__info {
-        max-width: 80%;
+        width: 100%;
     }
     
     &__decors {
@@ -458,7 +476,7 @@
         font-family: var(--font-family);
         font-style: normal;
         font-weight: 500;
-        font-size: 22px;
+        font-size: 32px;
         line-height: 120%;
     
         letter-spacing: 0.03em;
