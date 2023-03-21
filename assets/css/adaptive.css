@@ -176,14 +176,6 @@
         align-items: center;
     }
 
-    .our-advantages__container {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        margin-top: 20%;
-        gap: 30px;
-    }
-
     .our-advantages__scroll-bar {
         max-width: 100%;
     }
