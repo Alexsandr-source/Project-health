@@ -130,6 +130,11 @@
     margin: 0 24px;
   }
 }
+@media only screen and (max-width: 768px) {
+  .intro__title {
+    font-size: 100px;
+  }
+}
 .intro__text {
   font-family: var(--font-family);
   font-style: normal;
@@ -358,7 +363,7 @@
   }
 }
 .our-advantages__info {
-  width: 100%;
+  width: 600px;
 }
 .our-advantages__decors {
   margin: 6vh 0 3vw 0;

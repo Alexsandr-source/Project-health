@@ -156,9 +156,13 @@
         margin: 0 auto;
     
         color: var(--accent-color);
-
+        
         @media only screen and (max-width: 1280px) {
             margin: 0 24px;
+        }
+
+        @media only screen and (max-width: 768px) {
+            font-size: 100px;
         }
     }
     
@@ -447,7 +451,7 @@
     }
     
     &__info {
-        width: 100%;
+        width: 600px;
     }
     
     &__decors {
